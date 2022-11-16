@@ -14,6 +14,7 @@ public class Animal {
         this.weight = weight;
     }
 
+
     public void speak() {
         System.out.println("Hello.");
     }
@@ -24,5 +25,45 @@ public class Animal {
 
     public void play() {
         System.out.println("I like to .... you tell me.");
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setType(String type) {
+        this.type = type;
+    }
+
+    public String getType() {
+        return this.type;
+    }
+
+    public void setColor(String color) {
+        this.color = color;
+    }
+
+    public String getColor() {
+        return color;
+    }
+
+    public void setWeight(int weight) {
+        this.weight = weight;
+    }
+
+    public int getWeight() {
+        return weight;
+    }
+
+    public void setHeight(int height) {
+        this.height = height;
+    }
+
+    public int getHeight() {
+        return height;
     }
 }

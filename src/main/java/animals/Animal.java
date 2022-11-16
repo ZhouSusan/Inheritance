@@ -66,4 +66,9 @@ public class Animal {
     public int getHeight() {
         return height;
     }
+
+    public String aboutMe() {
+       String res = new String("My name is " + name + ", and I am a " + type + ".");
+       return res;
+    }
 }

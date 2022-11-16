@@ -13,4 +13,16 @@ public class Animal {
         this.height = height;
         this.weight = weight;
     }
+
+    public void speak() {
+        System.out.println("Hello.");
+    }
+
+    public void eat() {
+        System.out.println("I eat food");
+    }
+
+    public void play() {
+        System.out.println("I like to .... you tell me.");
+    }
 }

@@ -68,7 +68,7 @@ public class Animal {
     }
 
     public String aboutMe() {
-       String res = new String("My name is " + name + ", and I am a " + type + ".");
+       String res = "My name is " + name + ", and I am a " + type + ".";
        return res;
     }
 }

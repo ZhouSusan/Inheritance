@@ -9,9 +9,17 @@ public class Turtle extends Animal {
         this.speed = speed;
     }
 
+    public void sleep() {
+        if (speed <= speed/3) {
+            speed += 10;
+            System.out.println("Time to sleep");
+        } else {
+            System.out.println("Not time to sleep yet. I am still full of gas.");
+        }
+    }
+
     @Override
     public String aboutMe() {
-        super.aboutMe();
-        return "My shell is green, and I can speed up to " + speed + " mph.";
+        return "I am " + this.getName() + ". My shell is " + this.getColor() + ", and I can run up to " + speed + " mph.";
     }
 }

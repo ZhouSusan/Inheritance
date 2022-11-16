@@ -11,7 +11,7 @@ public class Shark extends Animal {
 
     @Override
     public void eat() {
-        if (energyLevel <= 100) {
+        if (energyLevel < 100) {
             energyLevel += 10;
             int diff = 100 - energyLevel;
             System.out.format("Crunch, Crunch! Only %s energy left.", energyLevel);

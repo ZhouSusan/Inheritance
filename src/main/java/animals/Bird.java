@@ -8,9 +8,9 @@ public class Bird extends Animal {
         return canFly;
     }
 
-    public Bird(String name,  String type, String color, int height, int weight) {
+    public Bird(String name,  String type, String color, int height, int weight, boolean canFly) {
         super(name, type, color, height, weight);
-        this.canFly = true;
+        this.canFly = canFly;
     }
 
     @Override
